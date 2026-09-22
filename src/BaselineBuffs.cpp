@@ -123,7 +123,7 @@ public:
         if (!player)
             return;
 
-        uint8 playerClass = player->GetClass();
+        uint8 playerClass = player->getClass();
 
         // Grant Priest buffs (Divine Spirit)
         if (cfg.Priest && playerClass == CLASS_PRIEST)
@@ -156,7 +156,7 @@ public:
         if (!player)
             return;
 
-        uint8 playerClass = player->GetClass();
+        uint8 playerClass = player->getClass();
 
         // Grant Priest buffs (Divine Spirit)
         if (cfg.Priest && playerClass == CLASS_PRIEST)
