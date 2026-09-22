@@ -1,0 +1,44 @@
+[worldserver]
+
+########################################
+# mod-baseline-buffs configuration
+########################################
+#
+# Grants three class utility buffs as baseline (learnable without spending a
+# talent point):
+#   - Priest: Divine Spirit (normally a Discipline talent)
+#   - Paladin: Blessing of Kings (normally a Protection talent)
+#   - Druid: Mark of the Wild (ensure the best rank is available)
+#
+# Players and playerbots learn the highest available rank of each spell when
+# they log in or level up. No trainer visit is required.
+#
+
+#
+#    BaselineBuffs.Enable
+#        Master on/off switch for this module. 0 = the module loads but does
+#        nothing.
+#        Default: 1
+#
+BaselineBuffs.Enable = 1
+
+#
+#    BaselineBuffs.Priest
+#        1 = Priests learn Divine Spirit as baseline. 0 = disabled.
+#        Default: 1
+#
+BaselineBuffs.Priest = 1
+
+#
+#    BaselineBuffs.Paladin
+#        1 = Paladins learn Blessing of Kings as baseline. 0 = disabled.
+#        Default: 1
+#
+BaselineBuffs.Paladin = 1
+
+#
+#    BaselineBuffs.Druid
+#        1 = Druids learn Mark of the Wild as baseline. 0 = disabled.
+#        Default: 1
+#
+BaselineBuffs.Druid = 1
