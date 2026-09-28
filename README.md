@@ -1,5 +1,10 @@
 # mod-baseline-buffs
 
+<!-- links:start -->
+[![Support me on Ko-fi](https://malura.de/assets/badge/kofi.svg)](https://malura.de/go/kofi?ref=mod-baseline-buffs)
+[![Check out my page](https://malura.de/assets/badge/malura.svg)](https://malura.de/go/site?ref=mod-baseline-buffs)
+<!-- links:end -->
+
 An [AzerothCore](https://www.azerothcore.org/) module (WotLK 3.3.5a) that turns three
 class utility buffs into **baseline abilities** — available without spending a talent point.
 
